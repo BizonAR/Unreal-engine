@@ -1,0 +1,406 @@
+﻿[2022.06.30-18.15.06:762][  0]Log file open, 06/30/22 21:15:06
+[2022.06.30-18.15.06:762][  0]LogInit:Display: Running engine for game: MyProject
+[2022.06.30-18.15.06:762][  0]LogPlatformFile: Not using cached read wrapper
+[2022.06.30-18.15.06:762][  0]LogInit:Display: RandInit(-288448078) SRandInit(-288448075).
+[2022.06.30-18.15.06:762][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2022.06.30-18.15.06:762][  0]LogStats: Stats thread started at 0.078991
+[2022.06.30-18.15.06:762][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2022.06.30-18.15.06:762][  0]LogInit: API Version: 2758231
+[2022.06.30-18.15.06:762][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2022.06.30-18.15.06:762][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2022.06.30-18.15.06:762][  0]LogInit: Build Configuration: Development
+[2022.06.30-18.15.06:762][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2022.06.30-18.15.06:762][  0]LogInit: Command line: 
+[2022.06.30-18.15.06:762][  0]LogInit: Base directory: C:/Program Files/Epic Games/UE_4.10/Engine/Binaries/Win64/
+[2022.06.30-18.15.06:762][  0]LogInit: Rocket: 1
+[2022.06.30-18.15.06:766][  0]LogInit: Using libcurl 7.41.0
+[2022.06.30-18.15.06:766][  0]LogInit:  - built for x86_64-pc-win32
+[2022.06.30-18.15.06:766][  0]LogInit:  - supports SSL with WinSSL
+[2022.06.30-18.15.06:766][  0]LogInit:  - other features:
+[2022.06.30-18.15.06:766][  0]LogInit:      CURL_VERSION_SSL
+[2022.06.30-18.15.06:766][  0]LogInit:      CURL_VERSION_IPV6
+[2022.06.30-18.15.06:766][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2022.06.30-18.15.06:766][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2022.06.30-18.15.06:766][  0]LogInit:      CURL_VERSION_IDN
+[2022.06.30-18.15.06:766][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2022.06.30-18.15.06:766][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2022.06.30-18.15.06:766][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2022.06.30-18.15.06:766][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2022.06.30-18.15.06:766][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2022.06.30-18.15.06:772][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2022.06.30-18.15.06:777][  0]LogInit: Object subsystem initialized
+[2022.06.30-18.15.06:778][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.30-18.15.06:778][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.06.30-18.15.06:784][  0]LogInit: Computer: DESKTOP-ESJH13B
+[2022.06.30-18.15.06:784][  0]LogInit: User: Semen
+[2022.06.30-18.15.06:784][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.06.30-18.15.06:784][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.06.30-18.15.06:784][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2022.06.30-18.15.06:784][  0]LogMemory: Platform Memory Stats for Windows
+[2022.06.30-18.15.06:784][  0]LogMemory: Process Physical Memory: 57.80 MB used, 57.80 MB peak
+[2022.06.30-18.15.06:784][  0]LogMemory: Process Virtual Memory: 57.56 MB used, 57.56 MB peak
+[2022.06.30-18.15.06:784][  0]LogMemory: Physical Memory: 4862.95 MB used, 7869.56 MB total
+[2022.06.30-18.15.06:784][  0]LogMemory: Virtual Memory: 4503.15 MB used, 134217728.00 MB total
+[2022.06.30-18.15.06:812][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2022.06.30-18.15.07:179][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) UHD Graphics (Feature Level 11_0)
+[2022.06.30-18.15.07:179][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 3934MB of shared system memory, 1 output[s]
+[2022.06.30-18.15.07:290][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce MX330 (Feature Level 11_0)
+[2022.06.30-18.15.07:290][  0]LogD3D11RHI: Adapter has 1983MB of dedicated video memory, 0MB of dedicated system memory, and 3934MB of shared system memory, 0 output[s]
+[2022.06.30-18.15.07:292][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2022.06.30-18.15.07:292][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3934MB of shared system memory, 0 output[s]
+[2022.06.30-18.15.07:292][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2022.06.30-18.15.07:297][  0]LogD3D11RHI: !Direct3DDevice
+[2022.06.30-18.15.07:297][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.06.30-18.15.07:316][  0]LogD3D11RHI: Async texture creation enabled
+[2022.06.30-18.15.07:326][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/852/).
+[2022.06.30-18.15.07:326][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Semen/AppData/Local/Temp/UnrealShaderWorkingDir/FE5B3B4941E6173B41CE689CF4D8502F/'.
+[2022.06.30-18.15.07:326][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2022.06.30-18.15.07:973][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2022.06.30-18.15.07:979][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2022.06.30-18.15.07:986][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.06.30-18.15.07:992][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2022.06.30-18.15.07:997][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2022.06.30-18.15.08:002][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2022.06.30-18.15.08:006][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2022.06.30-18.15.08:011][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2022.06.30-18.15.08:015][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2022.06.30-18.15.08:019][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2022.06.30-18.15.08:024][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2022.06.30-18.15.08:030][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2022.06.30-18.15.08:030][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.06.30-18.15.08:031][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2022.06.30-18.15.08:047][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2022.06.30-18.15.08:051][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.06.30-18.15.08:056][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2022.06.30-18.15.08:060][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2022.06.30-18.15.08:060][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2022.06.30-18.15.08:118][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2022.06.30-18.15.08:154][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Semen/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2022.06.30-18.15.08:154][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Semen/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2022.06.30-18.15.08:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.06.30-18.15.08:154][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.06.30-18.15.08:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.30-18.15.08:154][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.06.30-18.15.08:197][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.06.30-18.15.08:210][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Semen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.06.30-18.15.08:352][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.30-18.15.08:354][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2022.06.30-18.15.08:452][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2022.06.30-18.15.08:452][  0]LogMeshUtilities: No automatic mesh merging module available
+[2022.06.30-18.15.08:653][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.06.30-18.15.09:255][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.06.30-18.15.09:358][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2022.06.30-18.15.09:500][  0]SourceControl: Info Source control is disabled
+[2022.06.30-18.15.09:501][  0]SourceControl: Info Source control is disabled
+[2022.06.30-18.15.09:514][  0]SourceControl: Info Source control is disabled
+[2022.06.30-18.15.09:525][  0]SourceControl: Info Source control is disabled
+[2022.06.30-18.15.09:734][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2022.06.30-18.15.09:734][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2022.06.30-18.15.09:798][  0]LogEngine: Initializing Engine...
+[2022.06.30-18.15.09:802][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2022.06.30-18.15.09:802][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2022.06.30-18.15.09:894][  0]LogAIModule: Creating AISystem for world NewWorld
+[2022.06.30-18.15.09:901][  0]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.06.30-18.15.10:008][  0]LogInit: FAudioDevice initialized.
+[2022.06.30-18.15.10:031][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Semen/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2022.06.30-18.15.10:038][  0]LogInit: Texture streaming: Enabled
+[2022.06.30-18.15.10:044][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2022.06.30-18.15.10:044][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2022.06.30-18.15.10:044][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 548e79e24beff3d281d90eb47fec7499|8a38d83708e14964a5c76b3ab8e973f9|d4a94db6-0cad-4853-992b-afc905a19590
+[2022.06.30-18.15.10:044][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2022.06.30-18.15.10:054][  0]LogInit: Transaction tracking system initialized
+[2022.06.30-18.15.10:075][  0]BlueprintLog: New page: Editor Load
+[2022.06.30-18.15.10:140][  0]LocalizationService: Info Localization service is disabled
+[2022.06.30-18.15.10:204][  0]LogConsoleResponse:Display: 
+[2022.06.30-18.15.10:316][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2022.06.30-18.15.10:364][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Semen/Documents/Unreal Projects/MyProject/Content/' took 0.01s
+[2022.06.30-18.15.10:364][  0]SourceControl: Info Source control is disabled
+[2022.06.30-18.15.10:364][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.30-18.15.10:364][  0]LightingResults: New page: Lighting Build
+[2022.06.30-18.15.10:366][  0]MapCheck: New page: Map Check
+[2022.06.30-18.15.10:366][  0]LightingResults: New page: Lighting Build
+[2022.06.30-18.15.10:380][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AFF7966AC0
+[2022.06.30-18.15.10:586][  0]LogAIModule: Creating AISystem for world NewMap
+[2022.06.30-18.15.10:593][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.30-18.15.10:593][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.30-18.15.10:627][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.397ms to complete.
+[2022.06.30-18.15.10:627][  0]LogFileHelpers: Loading map 'NewMap' took 0.263
+[2022.06.30-18.15.10:782][  0]LogCollectionManager: Loaded 0 collections in 0.001816 seconds
+[2022.06.30-18.15.10:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Semen/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2022.06.30-18.15.10:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Semen/Documents/Unreal Projects/MyProject/Content/Developers/Semen/Collections/' took 0.01s
+[2022.06.30-18.15.10:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Semen/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2022.06.30-18.15.10:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2022.06.30-18.15.10:834][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 1893 classes and 338 folders.
+[2022.06.30-18.15.10:841][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.06.30-18.15.10:889][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.06.30-18.15.10:903][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.06.30-18.15.10:923][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2022.06.30-18.15.10:931][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2022.06.30-18.15.10:954][  0]LogLoad: Full Startup: 4.53 seconds (BP compile: 0.05 seconds)
+[2022.06.30-18.15.10:977][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2022.06.30-18.15.11:057][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.06.30-18.15.11:201][  0]LogRenderer: Reallocating scene render targets to support 760x512 (Frame:2).
+[2022.06.30-18.15.12:246][  3]LogAssetRegistry: Asset discovery search completed in 2.8992 seconds
+[2022.06.30-18.15.12:246][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.06.30-18.15.12:246][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2022.06.30-18.15.15:807][201]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.06.30-18.15.17:029][271]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.06.30-18.15.23:581][659]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.06.30-18.15.26:928][853]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.06.30-18.15.30:884][ 83]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.06.30-18.15.31:615][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.30-18.15.31:615][124]PIE: New page: PIE session: NewMap (Jul 1, 2022, 12:15:31 AM)
+[2022.06.30-18.15.31:615][124]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2022.06.30-18.15.31:618][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002474s)
+[2022.06.30-18.15.31:618][124]LogAIModule: Creating AISystem for world NewMap
+[2022.06.30-18.15.31:619][124]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2022.06.30-18.15.31:619][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003686s)
+[2022.06.30-18.15.31:643][124]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.06.30-18.15.31:656][124]LogInit: FAudioDevice initialized.
+[2022.06.30-18.15.31:706][124]LogWorld: Game class is 'GameMode'
+[2022.06.30-18.15.31:710][124]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.06.30-21.15.31
+[2022.06.30-18.15.31:710][124]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.06.30-18.15.31:710][124]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.06.30-18.15.31:710][124]LogWorld: Bringing up level for play took: 0.003587
+[2022.06.30-18.15.31:713][124]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.251
+[2022.06.30-18.15.33:219][208]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AFEADE6660
+[2022.06.30-18.15.40:026][582]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.06.30-18.15.41:747][683]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.06.30-18.15.42:959][753]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.06.30-18.15.46:624][965]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.06.30-18.15.48:183][ 57]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.06.30-18.15.48:958][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.30-18.15.48:959][100]PIE: New page: PIE session: NewMap (Jul 1, 2022, 12:15:48 AM)
+[2022.06.30-18.15.48:959][100]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2022.06.30-18.15.48:961][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002038s)
+[2022.06.30-18.15.48:961][100]LogAIModule: Creating AISystem for world NewMap
+[2022.06.30-18.15.48:961][100]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2022.06.30-18.15.48:962][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002922s)
+[2022.06.30-18.15.48:980][100]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.06.30-18.15.48:993][100]LogInit: FAudioDevice initialized.
+[2022.06.30-18.15.49:026][100]LogWorld: Game class is 'GameMode'
+[2022.06.30-18.15.49:029][100]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2022.06.30-21.15.49
+[2022.06.30-18.15.49:029][100]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.06.30-18.15.49:029][100]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.06.30-18.15.49:029][100]LogWorld: Bringing up level for play took: 0.003257
+[2022.06.30-18.15.49:031][100]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 1.068
+[2022.06.30-18.16.02:250][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AFEB7C0360
+[2022.06.30-18.16.13:130][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.06.30-18.16.13:171][325]LogSavePackage: Save=19.170700ms
+[2022.06.30-18.16.13:171][325]LogSavePackage: Moving '../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/Saved/NewMap0E64642C4263C46F4C83C0AE92A3644B.tmp' to '../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/Content/NewMap.umap'
+[2022.06.30-18.16.13:173][325]LogSavePackage: Total save time: 25.849398ms
+[2022.06.30-18.16.13:173][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Semen/Documents/Unreal Projects/MyProject/Content/NewMap.umap
+[2022.06.30-18.16.14:674][397]Cmd: QUIT_EDITOR
+[2022.06.30-18.16.15:221][397]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2022.06.30-18.16.15:295][397]LogExit: Preparing to exit.
+[2022.06.30-18.16.16:403][397]LogExit: Editor shut down
+[2022.06.30-18.16.16:403][397]LogExit: Transaction tracking system shut down
+[2022.06.30-18.16.16:405][397]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AFEBC66F20
+[2022.06.30-18.16.16:405][397]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AFEB243880
+[2022.06.30-18.16.16:405][397]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AFEB037740
+[2022.06.30-18.16.16:405][397]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AF8D3E2200
+[2022.06.30-18.16.16:537][397]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AF8D3E2020
+[2022.06.30-18.16.16:537][397]LogExit: Object subsystem successfully closed.
+[2022.06.30-18.16.16:550][397]LogD3D11RHI: Shutdown
+[2022.06.30-18.16.16:550][397]LogD3D11RHI: CleanupD3DDevice
+[2022.06.30-18.16.16:677][397]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2022.06.30-18.16.16:691][397]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2022.06.30-18.16.16:692][397]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2022.06.30-18.16.16:692][397]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2022.06.30-18.16.16:692][397]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2022.06.30-18.16.16:692][397]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2022.06.30-18.16.16:692][397]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2022.06.30-18.16.16:692][397]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2022.06.30-18.16.16:692][397]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2022.06.30-18.16.17:207][397]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2022.06.30-18.16.17:207][397]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2022.06.30-18.16.17:207][397]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2022.06.30-18.16.17:207][397]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2022.06.30-18.16.17:208][397]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2022.06.30-18.16.17:209][397]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2022.06.30-18.16.17:370][397]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2022.06.30-18.16.17:370][397]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2022.06.30-18.16.17:370][397]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2022.06.30-18.16.17:370][397]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2022.06.30-18.16.17:370][397]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2022.06.30-18.16.17:370][397]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2022.06.30-18.16.17:370][397]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2022.06.30-18.16.17:371][397]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2022.06.30-18.16.17:394][397]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2022.06.30-18.16.17:395][397]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2022.06.30-18.16.17:396][397]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2022.06.30-18.16.17:396][397]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2022.06.30-18.16.17:518][397]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2022.06.30-18.16.17:520][397]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2022.06.30-18.16.17:520][397]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2022.06.30-18.16.17:620][397]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2022.06.30-18.16.17:620][397]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2022.06.30-18.16.17:620][397]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2022.06.30-18.16.17:622][397]LogModuleManager: Shutting down and abandoning module Media (82)
+[2022.06.30-18.16.17:622][397]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2022.06.30-18.16.17:625][397]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module Core (60)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2022.06.30-18.16.17:628][397]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2022.06.30-18.16.17:782][397]LogDerivedDataCache: Shutdown
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2022.06.30-18.16.17:782][397]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2022.06.30-18.16.17:783][397]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2022.06.30-18.16.18:784][397]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2022.06.30-18.16.18:784][397]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2022.06.30-18.16.18:784][397]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2022.06.30-18.16.18:784][397]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2022.06.30-18.16.18:784][397]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2022.06.30-18.16.18:784][397]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2022.06.30-18.16.18:784][397]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2022.06.30-18.16.18:785][397]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2022.06.30-18.16.18:787][397]LogExit: Exiting.
+[2022.06.30-18.16.18:788][397]Log file closed, 06/30/22 21:16:18
